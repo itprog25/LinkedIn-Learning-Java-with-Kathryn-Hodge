@@ -15,11 +15,18 @@ public class Main {
 
         int studentAge = 22;
         double studentGPA = 7.63;
-        char studentFirstInitial = 'J';
-        char studentLastInitial = 'S';
-        boolean hasPerfectAttendance = true;
         String studentFirstName = "John";
         String studentLastName = "Smith";
+        // char studentFirstInitial = 'J';
+        // char studentLastInitial = 'S';
+        boolean hasPerfectAttendance = true;
+
+        /* charAt is a special string operation that allows us to
+        to access a character at a specific location within the
+        string. */
+
+        char studentFirstInitial = studentFirstName.charAt(0);
+        char studentLastInitial = studentLastName.charAt(0);
 
         System.out.println(studentAge);
         System.out.println(studentGPA);
@@ -28,5 +35,6 @@ public class Main {
         System.out.println(hasPerfectAttendance);
         System.out.println(studentFirstName);
         System.out.println(studentLastName);
+
     }
 }
