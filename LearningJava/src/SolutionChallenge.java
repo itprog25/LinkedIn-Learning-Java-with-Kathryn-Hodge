@@ -17,7 +17,7 @@ public class SolutionChallenge {
         if(answer.equals(input)) {
             System.out.println("Answer is correct");
         } else {
-            System.out.println("Answer is incorrect");
+            System.out.println("Answer is incorrect" + answer);
         }
     }
 }
