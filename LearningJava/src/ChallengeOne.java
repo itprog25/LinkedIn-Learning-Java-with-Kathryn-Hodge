@@ -26,7 +26,7 @@ public class ChallengeOne {
         if(correctAnswer.equals(userInput)) {
             System.out.println("Congrats, Your answer is correct");
         } else {
-            System.out.println("The answer is incorrect, Answer is New Delhi");
+            System.out.println("The answer is incorrect, Answer is "+ correctAnswer);
         }
     }
 }
