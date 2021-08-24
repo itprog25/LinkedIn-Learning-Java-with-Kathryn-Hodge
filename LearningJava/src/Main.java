@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -39,5 +41,12 @@ public class Main {
         // Concatenating Strings in Java
         System.out.println(studentFirstName + " " + studentLastName + " has a GPA of " + studentGPA);
 
+        // Input and Output in Java
+        System.out.println("What do you want to update to?");
+        
+        Scanner input = new Scanner(System.in);
+        studentGPA = input.nextDouble();
+
+        System.out.println(studentFirstName + " " + studentLastName + " now has a GPA of " + studentGPA );
     }
 }
