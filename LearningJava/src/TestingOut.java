@@ -14,6 +14,7 @@ public class TestingOut {
 
         Scanner input = new Scanner(System.in);
         String choice = input.nextLine();
+        input.close();
 
         if(choice.equals(answer.toLowerCase())) {
             System.out.println("Congrats, the answer is correct");
