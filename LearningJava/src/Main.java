@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
+        
+        /* primitive data types
+        1: int
+        2: double
+        3: boolean
+        4: char
+        */
+
         int studentAge = 22;
         double studentGPA = 7.63;
         char studentFirstInitial = 'S';
