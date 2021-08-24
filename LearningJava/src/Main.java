@@ -52,7 +52,5 @@ public class Main {
         // Quiz Questions Answers Workout
         // 4: System.out.println(studentFirstName + " " + "has a GPA of " + studentGPA);
 
-        // Mapping out control Flow
-        
     }
 }
