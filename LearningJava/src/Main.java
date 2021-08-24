@@ -36,5 +36,8 @@ public class Main {
         System.out.println(studentFirstName);
         System.out.println(studentLastName);
 
+        // Concatenating Strings in Java
+        System.out.println(studentFirstName + " " + studentLastName + " has a GPA of " + studentGPA);
+
     }
 }
