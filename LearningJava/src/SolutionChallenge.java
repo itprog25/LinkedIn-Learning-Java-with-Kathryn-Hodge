@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class SolutionChallenge {
     public static void main(String[] args) {
         String question = "What is the colour of Plants?";
-        String choiceOne = "Green";
-        String choiceTwo = "Yellow";
-        String choiceThree = "Red";
+        String choiceOne = "green";
+        String choiceTwo = "yellow";
+        String choiceThree = "red";
 
         String answer = choiceOne;
 
@@ -14,10 +14,10 @@ public class SolutionChallenge {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
         scanner.close();
-        if(answer.equals(input)) {
+        if(answer.equals(input.toLowerCase())) {
             System.out.println("Answer is correct");
         } else {
-            System.out.println("Answer is incorrect" + answer);
+            System.out.println("Answer is incorrect. The correct answer is " + answer);
         }
     }
 }
