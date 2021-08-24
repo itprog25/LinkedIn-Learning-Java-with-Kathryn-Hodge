@@ -22,7 +22,7 @@ public class DebugChallenge {
             System.out.println("That's invalid. Please input the height of the triangle (in inches).");
             height = input.nextDouble();
         }
-
+        input.close();
         double area = (base * height) / 2;
         System.out.println("The area is " + area);
 
