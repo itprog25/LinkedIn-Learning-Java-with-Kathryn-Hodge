@@ -13,7 +13,7 @@ public class Employee {
         int vacationDays = input.nextInt();
         input.close();
         System.out.println("Total yearly gross Salary of Employee "+employeeName);
-        int totalVacationDaysSalary = vacationDays * 8;
+        int totalVacationDaysSalary = amountPerHour * vacationDays * 8;
         int totalSalary = hourWeek * amountPerHour * 52 - totalVacationDaysSalary;
         return totalSalary;
     }
