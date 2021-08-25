@@ -7,5 +7,8 @@ public class Main {
 
         double triangleAArea = triangleA.findArea();
         System.out.println("Area of Triangle A is " + triangleAArea);
+
+        double triangleBArea = triangleB.findArea();
+        System.out.println("Area of Triangle B is "+ triangleBArea);
     }
 }
