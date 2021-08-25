@@ -13,5 +13,7 @@ public class Main {
 
         System.out.println(triangleA.sideLenOne);
         System.out.println(triangleB.base);
+
+        System.out.println(Triangle.numOfSides);
     }
 }
